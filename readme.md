@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+Clone the project on your local machine.
+Deploy the project by running `docker-compose up -d`
+If you are running your project on a different machine which you ar using, you must set the `frontend/src/agent.js` file. The `BACKEND_URL` const must be set to the correct IP by changing localhost.
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
